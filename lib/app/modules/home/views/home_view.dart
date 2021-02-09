@@ -34,6 +34,7 @@ class HomeView extends GetView<HomeController> {
                 flexibleSpace: Image.asset(
                   'assets/images/home.jpg',
                   fit: BoxFit.cover,
+                  height: 300,
                 ),
                 expandedHeight: 200,
                 bottom: ColoredTabBar(
